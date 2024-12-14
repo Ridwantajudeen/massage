@@ -65,7 +65,7 @@ body{
     color: #b59c79;
 }
 .welcome{
-    background-image: url('./images/welcome.jpg') ;
+    background-image: url('/images/welcome.JPG') ;
     background-size: cover;
 }
 .hero-word{
