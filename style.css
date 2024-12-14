@@ -118,7 +118,7 @@ body{
 .hero p{
     margin-top: 30px;
     font-size: 20px;
-    width: 90%;
+    width: 80%;
     color:#c8beac;
 
 }
@@ -138,6 +138,7 @@ body{
     color: #c8beac;
     background-color: #1f301d;
     padding: 10px;
+    
 }
 .hero ul li strong{
     color: #b59c79;
@@ -222,12 +223,19 @@ footer .contact #contact p{
     .hero h2{
         color: #b59c79;
         font-weight: bolder;
-        font-size: 20px;
+        font-size: large;
     
+    }
+    .hero ul{
+        display: grid;
+        place-items: center;
     }
     .hero ul li{
         margin-top: 20px;
         margin-bottom: 20px;
+        width: 70%;
+        display: grid;
+        place-items: center;
 
     }
     .services #services {
