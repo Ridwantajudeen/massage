@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: 'Hanken Grotesk';
+    src: url('fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face{
+    font-family: 'Hanken Grotesk Italic';
+    src: url('fonts/HankenGrotesk-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    /* background-color: #d3d3d3; */
+    /* background-color: #ece4d2; */
+    background-color: #293a27;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: #111d10;
+    color: #ece4d2;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.header a{
+    color: #ece4d2;
+    text-decoration: none;
+}
+.header a:hover{
+    color: #b59c79;
+}
+.logo{
+    width:100px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+.logo img{
+    height: 30px;
+}
+.menu ul{
+    display: flex;
+    margin-right: 40px;
+
+    
+}
+.menu ul li{
+    margin-left:20px ;
+    margin-right: 20px;
+    list-style: none;
+    font-weight: bolder;
+    font-size: large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.menu ul li:hover{
+    color: #b59c79;
+}
+.welcome{
+    background-image: url('./images/welcome.jpg') ;
+    background-size: cover;
+}
+.hero-word{
+    display: grid;
+    place-items: center;
+    
+}
+.hero-word p{
+    width: 40%;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-top: 10%;
+    
+}
+.hero-word button{
+    background: none;
+    height: 35px;
+    width: 180px;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    color: #ffffff;
+}
+.hero-word button a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.hero-word button:hover{
+    color: #ffffff;
+    background-color: black;
+}
+.hero{
+    display: grid;
+    place-items: center;
+    margin-top: 5%;
+
+}
+.hero h2{
+    color: #b59c79;
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+.hero p{
+    margin-top: 30px;
+    font-size: 20px;
+    width: 90%;
+    color:#c8beac;
+
+}
+.hero ul{
+    display: flex;
+    /* padding: 10px; */
+    margin-top: 60px;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+.hero ul li{
+    width: 400px;
+    list-style: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+    color: #c8beac;
+    background-color: #1f301d;
+    padding: 10px;
+}
+.hero ul li strong{
+    color: #b59c79;
+}
+ .services{
+    
+    display: grid;
+    place-items: center;
+    margin-top: 10%;
+}
+.services h2{
+    color: #b59c79;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.services p{
+    margin-top: 30px;
+    font-size: 20px;
+    width: 80%;
+    color:#c8beac;
+    margin-bottom: 10px;
+}
+ .services #services {
+    display: flex;
+    text-align: center;
+}
+.services #services li{
+    list-style: none;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.services #services img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: solid #1f301d;
+}
+footer{
+    background-color:#ece4d2 ;
+    width: 100%;
+    color:#293a27 ;
+  
+
+}
+#footer-logo{
+    display: grid;
+    place-items: center;
+    
+}
+.footer-logo{
+    margin-top: 50px;
+height: 70px;
+}
+footer .contact{
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+}
+footer .contact #contact{
+    display: flex;
+    margin-top: 20px;
+}
+footer .contact #contact p{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#copyright{
+    display: grid;
+    margin-top: 60px;
+    padding: 10px;
+    margin-left: 5%;
+    
+}
+@media screen and (max-width:1000px){
+    .hero ul{
+        display: inline;
+    }
+    .hero h2{
+        color: #b59c79;
+        font-weight: bolder;
+        font-size: 20px;
+    
+    }
+    .hero ul li{
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+    .services #services {
+        display: inline;
+        
+    }
+    footer .contact #contact{
+        display: inline;
+    } 
+    footer .contact #contact .divide{
+        display: none;
+    }
+}

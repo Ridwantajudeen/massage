@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: 'Hanken Grotesk';
+    src: url('fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face{
+    font-family: 'Hanken Grotesk Italic';
+    src: url('fonts/HankenGrotesk-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    /* background-color: #d3d3d3; */
+    background-color: #ece4d2;
+    
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: #111d10;
+    color: #ece4d2;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.header a{
+    color: #ece4d2;
+    text-decoration: none;
+}
+.header a:hover{
+    color: #b59c79;
+}
+.logo{
+    width:100px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+.logo img{
+    height: 30px;
+}
+.menu ul{
+    display: flex;
+    margin-right: 40px;
+
+    
+}
+.menu ul li{
+    margin-left:10px ;
+    margin-right: 10px;
+    list-style: none;
+    font-weight: bolder;
+    font-size: large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.menu ul li:hover{
+    color: #b59c79;
+}
+
+.appointment{
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+}
+form{
+    margin-top: 60px;
+}
+label{
+    font-size: 18px;
+    margin-bottom: 5px;
+    
+}
+input, select{
+    width: 280px;
+    border: none;
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: large;
+    
+}
+button{
+    font-size: large;
+    width: 280px;
+    border: none;
+    height: 40px;
+    padding: 10px;
+    background-color:#293a27 ;
+    color: #b59c79;
+    font-weight: bolder;
+}
+footer{
+    background-color:#293a27 ;
+    margin-top: 30px;
+    width: 100%;
+    color: #ece4d2;
+  
+
+}
+#footer-logo{
+    display: grid;
+    place-items: center;
+    
+}
+.footer-logo{
+    margin-top: 50px;
+height: 70px;
+}
+footer .contact{
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+}
+footer .contact #contact{
+    display: flex;
+    margin-top: 20px;
+}
+footer .contact #contact p{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#copyright{
+    display: grid;
+    margin-top: 60px;
+    padding: 10px;
+    margin-left: 5%;
+    
+}
+@media screen and (max-width:1000px){
+    footer .contact #contact{
+        display: inline;
+    } 
+    footer .contact #contact .divide{
+        display: none;
+    }
+}
