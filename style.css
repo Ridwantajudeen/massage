@@ -49,7 +49,7 @@ body{
 }
 .menu ul{
     display: flex;
-    margin-right: 40px;
+    margin-right: 20px;
 
     
 }
@@ -224,6 +224,7 @@ footer .contact #contact p{
         color: #b59c79;
         font-weight: bolder;
         font-size: large;
+        margin-left: 10px;
     
     }
     .hero ul{
