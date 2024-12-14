@@ -27,6 +27,7 @@ body{
     color: #ece4d2;
     display: flex;
     justify-content: space-between;
+    width: 100%;
     
     
 }
@@ -67,6 +68,7 @@ body{
 .welcome{
     background-image: url('/images/welcome.JPG') ;
     background-size: cover;
+    width: 100%;
 }
 .hero-word{
     display: grid;
@@ -104,6 +106,7 @@ body{
     display: grid;
     place-items: center;
     margin-top: 5%;
+    padding: 5px;
 
 }
 .hero h2{
@@ -144,6 +147,7 @@ body{
     display: grid;
     place-items: center;
     margin-top: 10%;
+    padding: 5px;
 }
 .services h2{
     color: #b59c79;
