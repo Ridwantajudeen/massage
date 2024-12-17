@@ -223,6 +223,13 @@ footer .contact #contact p{
     
         
     }
+    .hero-word p{
+        width: 60%;
+        color: #ffffff;
+        margin-top: 50px;
+        margin-top: 10%;
+        
+    }
     .menu ul li{
         margin-left:10px ;
         margin-right: 10px;
