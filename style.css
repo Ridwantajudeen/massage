@@ -217,6 +217,21 @@ footer .contact #contact p{
     
 }
 @media screen and (max-width:1000px){
+    .menu ul{
+        display: flex;
+        margin-right: 10px;
+    
+        
+    }
+    .menu ul li{
+        margin-left:10px ;
+        margin-right: 10px;
+        list-style: none;
+        font-weight: bolder;
+        font-size: large;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
     .hero ul{
         display: inline;
     }
